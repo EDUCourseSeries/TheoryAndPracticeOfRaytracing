@@ -139,10 +139,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CObject.h" />
+    <ClInclude Include="CRay.h" />
     <ClInclude Include="GMath.h" />
     <ClInclude Include="LightSource.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CObject.cpp" />
+    <ClCompile Include="CRay.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="GMath.cpp" />
     <ClCompile Include="LightSource.cpp" />

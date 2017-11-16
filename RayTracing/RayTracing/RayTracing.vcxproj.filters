@@ -21,6 +21,12 @@
     <ClInclude Include="GMath.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="CObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CRay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LightSource.cpp">
@@ -30,6 +36,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CRay.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
