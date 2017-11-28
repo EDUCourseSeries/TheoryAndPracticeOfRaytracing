@@ -83,7 +83,7 @@ public:
 	*	\param _Kd 光源漫反射系数
 	*	\param _Ks 光源镜面反射系数
 	*/
-	CDirectionalLight(const GVector3& _position, const GVector3& _direction, const GVector3& _Ka=GVector3(), const GVector3& _Kd= GVector3(), const GVector3& _Ks= GVector3());
+	CDirectionalLight(const GVector3& _position, const GVector3& _direction, const GVector3& _Ka = GVector3(1.0f, 1.0f, 1.0f), const GVector3& _Kd = GVector3(1.0f, 1.0f, 1.0f), const GVector3& _Ks = GVector3(1.0f, 1.0f, 1.0f));
 
 	~CDirectionalLight();
 
