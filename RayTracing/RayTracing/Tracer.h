@@ -8,4 +8,5 @@ class CTracer
 {
 public:
 	static GVector3 Trace(CScene* _scene, CRay R, int _traceDepth);
+	static int TraceDepth;
 };

@@ -27,6 +27,8 @@ public:
 	inline void SetCamDir(const GVector3& _dir) { CamDir = _dir; }
 	inline GVector3 GetCamPos() { return CamPos; }
 	inline GVector3 GetCamDir() { return CamDir; }
+	inline int GetObjectsNum() { return Objects.size(); }
+	inline int GetLightsNum() { return Lights.size(); }
 
 
 private:

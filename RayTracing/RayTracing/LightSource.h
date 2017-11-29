@@ -36,7 +36,7 @@ public:
 	inline GVector3 getKd() { return Kd; }
 	inline GVector3 getKs() { return Ks; }
 
-protected:
+
 	/*
 	*	\brief	计算该光源在物体表面任意一点产生的环境反射
 	*
